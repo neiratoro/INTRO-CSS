@@ -1,0 +1,44 @@
+/*Selectores de etiqueta */
+h1 {
+    color: red;
+}
+h2 {
+    color: blue;
+}
+
+p {
+    color: rgb(8, 8, 8);
+}
+
+/* Selector de clase, se denota con un (.) */
+
+.class{
+    font: size 20px;
+    color: aqua;
+}
+
+.class1{
+    color: gray;
+}
+
+/*Selector de ID, se denota con un (#) */
+
+#selecID { 
+    background: beige;
+
+}
+#selecID1 {
+    background-color: aquamarine;
+}
+/* Selectores de atributo(con caracter especial, puede ser []*/
+
+input [type="text"] {
+    color: green;
+}
+/*Selector universal (*)*/
+
+*{
+    color: brown;
+}
+
+
